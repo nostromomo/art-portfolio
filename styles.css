@@ -1,0 +1,43 @@
+
+* {
+    background-color: black;
+    color: rgb(141, 137, 253);
+    font-family: Bebas Neue, Verdana, sans-serif;
+}
+
+nav {
+    display: block flex;
+    flex-direction: row wrap;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+}
+
+fieldset, form {
+    border: rgba(255, 120, 62, 0.694) solid;
+    border-width: 8px;
+    margin: 10px auto;
+    display: block flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+input, textarea {
+    width: 30%;
+    max-width: 40%;
+    height: 20px;
+    margin: 7px auto;
+}
+
+textarea {
+    height: 100px;
+}
